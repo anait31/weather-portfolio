@@ -38,6 +38,7 @@ body {
     font-weight: 400;
     text-rendering: optimizeLegibility;
     line-height: 1.5;
+
 }
 
 a {
@@ -76,6 +77,10 @@ section {
  3. Hero Section
 =========================================================*/
 
+nav {
+    position: sticky;
+    top: -20px;
+}
 
 .logo {
     float: left;
@@ -85,9 +90,7 @@ section {
     width: 30px;
 }
 
-#hero nav {
-    background: aqua;
-}
+
 
 ion-icon {
     float: right;
